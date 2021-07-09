@@ -150,6 +150,18 @@ Follow these steps to grant secret access to your workspace identity:
 4. Select **Select** and **Add**.
 5. Select the **Save** button to commit changes.  
 
+:::zone pivot = "programming-language-python"
+    
+###  Importing the package
+
+While `mssparkutils` is readily available in notebooks, you can import the module for python job definitions by running the following command:
+```python
+from notebookutils import mssparkutils
+```
+    
+::: zone-end    
+    
+    
 ## File system utilities
 
 `mssparkutils.fs` provides utilities for working with various file systems, including Azure Data Lake Storage Gen2 (ADLS Gen2) and Azure Blob Storage. Make sure you configure access to [Azure Data Lake Storage Gen2](#configure-access-to-azure-data-lake-storage-gen2) and [Azure Blob Storage](#configure-access-to-azure-blob-storage) appropriately.
